@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
+import Button from '../../components/Button';
+import Search from "../../components/Search";
 
 const Home = () => {
-    
-        return (
-            <div>
-                    <h1>Blog</h1>
-            </div>
-        )
-    
-}
+    return (
+        <div>
 
+            <Search/>
+        </div>
+    );
+};
 
 export default Home;
