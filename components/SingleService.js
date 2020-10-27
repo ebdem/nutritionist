@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faArrowAltCircleRight, faFootballBall, faGamepad} from '@fortawesome/free-solid-svg-icons';
+import {faArrowAltCircleRight, faFootballBall} from '@fortawesome/free-solid-svg-icons';
 
 
 const SingleService = (props) => {
@@ -8,11 +8,11 @@ const SingleService = (props) => {
         <div className="col-md-4">
             <div className="card-box-c foo">
                 <div className="card-header-c d-flex">
-                    <div className="card-box-ico">
-                        <span><FontAwesomeIcon icon={faFootballBall}/></span>
+                    <div className="card-box-ico" >
+                        <span><FontAwesomeIcon icon={props.Icon}/></span>
                     </div>
                     <div className="card-title-c align-self-center">
-                        <h2 className="title-c">{props.title}</h2>
+                        <h2 className="title-c" style={{textDecoration:'underline'}}>{props.title}</h2>
                     </div>
                 </div>
                 <div className="card-body-c">
